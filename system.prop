@@ -1,0 +1,86 @@
+# Android Run Time
+ro.sys.fw.dex2oat_thread_count=4
+
+# ActivityManager
+ro.config.max_starting_bg=8
+ro.sys.fw.use_trim_settings=true
+
+ro.config.ipv4.mtu=1400
+ro.config.hw_dts=true
+ro.config.widevine_level3=true
+drm.service.enabled=true
+ro.media.radar=0
+ro.config.enable_iaware=true
+sys.refresh.dirty=1
+ro.config.hw_media_flags=3
+
+ro.hardware.alter=Hisilicon Kirin 960
+persist.sys.fingersense=1
+ro.opengles.version=196610
+ro.sf.lcd_density=520
+
+# Camera
+ro.hwcamera.BackSnapShotLimit=true
+ro.hwcamera.brightness_range=40,255
+ro.hwcamera.gps_request_delay=30
+ro.hwcamera.portrait_mode=on
+ro.hwcamera.voicereg.threshold=38,20,7
+ro.config.pg_camera_cabc=true
+camera.hal1.packagelist=com.google.android.GoogleCamera
+
+# local
+net.tethering.noprovisioning=true
+ro.config.hw_lte_support=true
+ro.frp.pst=/dev/block/bootdevice/by-name/frp
+gsm.fastdormancy.mode=1
+
+# Performance
+ro.am.reschedule_service=true
+
+# RIL
+ro.config.hw_volte_on=true
+persist.radio.infrared_switch=true
+ril.modem.balong_nvm_server=true
+
+ro.telephony.ril_class=HwHisiRIL
+audioril.lib=libhuawei-audio-ril.so
+persist.radio.apm_sim_not_pwdn=1
+
+ro.config.hisi_cdma_supported=false
+ro.config.hw_dsda=false
+rild.libargs1=-m modem1
+persist.radio.nv_match_by_card=2
+ro.config.modem_number=3
+rild.libargs2=-m modem2
+ro.config.client_number=5
+ro.config.support_wcdma_modem1=true
+ro.config.hw_ipv6_support=true
+ro.telephony.default_network=9
+rild.libargs=-m modem0
+ro.config.dsds_mode=umts_gsm
+persist.radio.multisim.config=dsds
+ro.config.fix_commril_mode=false
+persist.radio.modem.cap=09B9D
+ro.config.full_network_support=false
+ro.pwroff_card_if_tray_out=true
+ro.config.reduce_sar_type1=001
+ro.config.both_m0_m2_gsm_cap=true
+persist.radio.overseas_mode=true
+ro.config.hw_dsdspowerup=true
+persist.dsds.enabled=true
+ro.multi.rild=false
+ro.config.default_commril_mode=HISI_CGUL_MODE
+rild.libpath1=/vendor/lib64/libbalong-ril-1.so
+ro.config.hw_save_pin=true
+ro.cdma.home.operator.numeric=46003
+ro.config.report_cell_info_list=true
+rild.libpath=/vendor/lib64/libbalong-ril.so
+ro.config.hw_ReduceSAR=true
+rild.rild1_ready_to_start=false
+rild.libpath2=/vendor/lib64/libbalong-ril-2.so
+persist.radio.modem_cdma_roam=true
+ro.config.fast_switch_simslot=true
+ro.config.is_start_commril=true
+
+# Wifi
+wifi.interface=wlan0

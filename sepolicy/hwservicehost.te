@@ -1,0 +1,6 @@
+# hwservicehost daemon
+type hwservicehost, domain, domain_deprecated;
+type hwservicehost_exec, exec_type, file_type;
+
+# Started by init
+init_daemon_domain(hwservicehost)
