@@ -66,4 +66,6 @@
     <value>1761</value>
     <value>1948</value>
   </array>
+    <allow-in-power-save package="com.google.android.gms" />
+    <allow-in-data-usage-save package="com.google.android.gms" />
 </device>
