@@ -127,6 +127,10 @@ PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
 PRODUCT_PACKAGES += \
     power.hi3660
 
+# Snap camera
+PRODUCT_PACKAGES += \
+    Snap
+
 # Doze
 PRODUCT_PACKAGES += \
     HisiDoze
