@@ -20,3 +20,8 @@ LOCAL_PATH := device/honor/stf
 # Bluetooth
 BOARD_HAVE_BLUETOOTH := true
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(LOCAL_PATH)/bluetooth
+
+# SELinux
+BOARD_PLAT_PRIVATE_SEPOLICY_DIR += \
+    device/honor/stf/sepolicy
+
