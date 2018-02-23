@@ -31,3 +31,7 @@ PRODUCT_NAME := rr_stf
 PRODUCT_DEVICE := stf
 PRODUCT_BRAND := Huawei
 PRODUCT_MODEL := Honor-9
+
+# Override device name
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    TARGET_DEVICE=hi3660
