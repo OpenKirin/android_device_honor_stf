@@ -21,6 +21,8 @@ $(call inherit-product, $(LOCAL_PATH)/full_stf.mk)
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/rr/config/common_full_phone.mk)
 
+RR_BUILDTYPE = OpenKirin
+
 # Boot animation
 TARGET_SCREEN_HEIGHT := 1920
 TARGET_SCREEN_WIDTH := 1080
