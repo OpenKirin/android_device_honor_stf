@@ -23,10 +23,8 @@ DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay-rr
 
 # Device init scripts
 PRODUCT_PACKAGES += \
-    init.hi3660.rc
-
-PRODUCT_PACKAGES += \
-    init.hi3660.lineage.rc
+    init.hi3660.rc \
+    init.hi3660.rr.rc
 
 # Display
 PRODUCT_PACKAGES += \
