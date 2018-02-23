@@ -21,6 +21,10 @@ $(call inherit-product, $(LOCAL_PATH)/full_stf.mk)
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/rr/config/common_full_phone.mk)
 
+# Boot animation
+TARGET_SCREEN_HEIGHT := 1920
+TARGET_SCREEN_WIDTH := 1080
+
 PRODUCT_NAME := rr_stf
 PRODUCT_DEVICE := stf
 PRODUCT_BRAND := Huawei
