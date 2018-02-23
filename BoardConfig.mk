@@ -33,3 +33,6 @@ TARGET_SYSTEM_PROP := $(DEVICE_PATH)/system.prop
 # SELinux
 BOARD_PLAT_PRIVATE_SEPOLICY_DIR += \
     device/honor/stf/sepolicy
+
+# System size
+BOARD_SYSTEMIMAGE_PARTITION_SIZE := 4915724288	# 4.8 GB
