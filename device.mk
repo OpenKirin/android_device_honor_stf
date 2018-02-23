@@ -19,6 +19,8 @@ $(call inherit-product-if-exists, vendor/honor/stf/stf-vendor.mk)
 
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
+DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay-rr
+
 # NFC
 PRODUCT_PACKAGES += \
     com.android.nfc_extras \
