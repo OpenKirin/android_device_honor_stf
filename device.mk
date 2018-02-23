@@ -18,3 +18,6 @@
 $(call inherit-product-if-exists, vendor/honor/stf/stf-vendor.mk)
 
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
+
+PRODUCT_COPY_FILES += \
+	$(call find-copy-subdir-files,*,device/honor/bkl/system/,system/)
