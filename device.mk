@@ -21,6 +21,10 @@ DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay-rr
 
+# Display
+PRODUCT_PACKAGES += \
+    libion
+
 # NFC
 PRODUCT_PACKAGES += \
     com.android.nfc_extras \
