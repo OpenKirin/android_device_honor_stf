@@ -25,6 +25,9 @@ DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay-rr
 PRODUCT_PACKAGES += \
     init.hi3660.rc
 
+PRODUCT_PACKAGES += \
+    init.hi3660.lineage.rc
+
 # Display
 PRODUCT_PACKAGES += \
     libion
