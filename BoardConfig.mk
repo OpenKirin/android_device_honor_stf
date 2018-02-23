@@ -23,6 +23,10 @@ include build/make/target/board/generic_arm64_a/BoardConfig.mk
 BOARD_HAVE_BLUETOOTH := true
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(LOCAL_PATH)/bluetooth
 
+# Cpuset
+ENABLE_CPUSETS := true
+ENABLE_SCHEDBOOST := true
+
 # Properties
 TARGET_SYSTEM_PROP := $(DEVICE_PATH)/system.prop
 
