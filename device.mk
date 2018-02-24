@@ -31,7 +31,7 @@ PRODUCT_PACKAGES += \
     libion
 
 # Disable nav key
-PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
+PRODUCT_PROPERTY_OVERRIDES += \
     qemu.hw.mainkeys=1
 
 # HIDL
