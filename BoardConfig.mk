@@ -15,13 +15,13 @@
 # limitations under the License.
 #
 
-LOCAL_PATH := device/honor/stf
+DEVICE_PATH := device/honor/stf
 
 include build/make/target/board/generic_arm64_a/BoardConfig.mk
 
 # Bluetooth
 BOARD_HAVE_BLUETOOTH := true
-BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(LOCAL_PATH)/bluetooth
+BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth
 
 # Properties
 TARGET_SYSTEM_PROP := $(DEVICE_PATH)/system.prop
