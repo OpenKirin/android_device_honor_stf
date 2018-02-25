@@ -16,6 +16,7 @@
 #
 
 $(call inherit-product, $(LOCAL_PATH)/pre-base.mk)
+$(call inherit-product-if-exists, vendor/google/gapps.mk)
 $(call inherit-product, $(LOCAL_PATH)/full_stf.mk)
 
 # Inherit some common Lineage stuff.
