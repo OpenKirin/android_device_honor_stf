@@ -6,3 +6,6 @@ ro.adb.secure=1
 
 # Make sdcards visibile in StorageManager
 persist.sys.adoptable_fbe=true
+
+# Perf
+ro.vendor.qti.sys.fw.bg_apps_limit=60
