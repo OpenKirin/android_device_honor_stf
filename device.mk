@@ -34,10 +34,6 @@ PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 PRODUCT_PACKAGES += \
     libion
 
-# Disable nav key
-PRODUCT_PROPERTY_OVERRIDES += \
-    qemu.hw.mainkeys=1
-
 # FPS
 PRODUCT_PACKAGES += \
     hw-fpnav-daemon
@@ -90,6 +86,10 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     ro.sys.sdcardfs=0 \
     persist.sys.sdcardfs.emulated=0 \
     persist.sys.sdcardfs.public=0
+
+PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
+    qemu.hw.mainkeys=1 \
+    ro.adb.secure=1
 
 # VNDK
 PRODUCT_COPY_FILES += \
